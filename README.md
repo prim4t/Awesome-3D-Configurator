@@ -83,7 +83,3 @@ Kein "echtes/live" 3D
 - [Sketchfab](https://sketchfab.com/search?q=configurator&type=models)
 - [Itch.io](https://itch.io/search?q=configurator)
 - [Room Planner](https://store.steampowered.com/app/1066110/Room_Planner__Design_Home_3D/)
-
----
-
-von [PRIM4T](https://prim4t.art) 🦍

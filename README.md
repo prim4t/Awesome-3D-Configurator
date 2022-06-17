@@ -37,7 +37,7 @@ CON:
 Weniger Kontrolle  
 Abhängigkeit von Drittanbietern   
 
-- #### [Wordpress Demo](https://codepen.io/prim4t/pen/ZErVwWz) | [Wordpress Demo](https://wordpress.org/plugins/site3d-configurator/) | [Wordpress Demo](https://es.wordpress.org/plugins/vividworks-3d-ecommerce-configurator/) | [Wordpress Demo](https://wordpress.org/plugins/immersive-designer/) | [Shopify Demo](https://apps.shopify.com/expivi-3d-product-configurator-1)
+#### [Wordpress Demo](https://codepen.io/prim4t/pen/ZErVwWz) | [Wordpress Demo](https://wordpress.org/plugins/site3d-configurator/) | [Wordpress Demo](https://es.wordpress.org/plugins/vividworks-3d-ecommerce-configurator/) | [Wordpress Demo](https://wordpress.org/plugins/immersive-designer/) | [Shopify Demo](https://apps.shopify.com/expivi-3d-product-configurator-1)
 
 ---
 
@@ -73,13 +73,17 @@ Breitere Zugänglichkeit (keine größere Rechenleistung und Plugins erforderlic
 CON:  
 Kein "echtes/live" 3D  
 
-- #### [Demo](https://codepen.io/vincentntang/pen/LKgWbv)
+#### [Demo](https://codepen.io/vincentntang/pen/LKgWbv)
 
 ---
 
 ###### ✨ Extras ✨
 
-- [Augmented Reality Demo](https://github.com/olucurious/Awesome-ARKit) | [Augmented Reality Demo](https://rufus31415.github.io/webxr/MRTK-HandInteraction/) | [Augmented Reality Demo](https://ar-js-org.github.io/AR.js-Docs/) | 
 - [Sketchfab](https://sketchfab.com/search?q=configurator&type=models)
 - [Itch.io](https://itch.io/search?q=configurator)
 - [Room Planner](https://store.steampowered.com/app/1066110/Room_Planner__Design_Home_3D/)
+- [Augmented Reality Demo](https://github.com/olucurious/Awesome-ARKit) | [Augmented Reality Demo](https://rufus31415.github.io/webxr/MRTK-HandInteraction/) | [Augmented Reality Demo](https://ar-js-org.github.io/AR.js-Docs/) 
+
+---
+
+von [PRIM4T](https://prim4t.art) 🦍

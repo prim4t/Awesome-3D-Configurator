@@ -1,8 +1,3 @@
-<a> <img height ='250px' src ='https://cdn.hashnode.com/res/hashnode/image/upload/v1655416167040/Fy-J3WIgf.jpg?w=1600&h=840&fit=crop&crop=entropy&auto=compress'> </a>
-
-
-### 3D-Configurator - Ein Überblick 2022
-
 ---
 
 ### 🎮 Game Engines 🎮
@@ -50,14 +45,15 @@ Codeintensiv
 
 #### Nuxt+Three.js: [Demo](https://osorina.github.io/3d-headphones/) | [Blog+GitHub](https://official-osorina.medium.com/creating-a-3d-configurator-with-nuxt-and-three-js-part-1-6d40da0209e0)
 
-
 #### Three.js room configurator: [Demo](https://threejs-room-configurator.netlify.app/)
 
 #### Babylon.js: [Demo](https://deftntact.com/sofaconfigurator)
 
 #### Pure WebGL: [Demo](https://github.com/kodaline/home-planner) | [Demo](https://cyber-fox.net/projects/cyberfox_3d_confifurator_demo_min/index.html) | [Demo](https://jolausa.com/configurator/)
 
-#### model-viewer: [Demo](https://modelviewer.dev/)
+#### model-viewer: [Info](https://modelviewer.dev/)
+
+#### AFrame: [Info](https://aframe.io/)
 
 ---
 

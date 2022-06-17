@@ -85,6 +85,4 @@ Kein "echtes/live" 3D
 - [Room Planner](https://store.steampowered.com/app/1066110/Room_Planner__Design_Home_3D/)
 - [Augmented Reality Demo](https://github.com/olucurious/Awesome-ARKit) | [Augmented Reality Demo](https://rufus31415.github.io/webxr/MRTK-HandInteraction/) | [Augmented Reality Demo](https://ar-js-org.github.io/AR.js-Docs/) 
 
----
 
-von [PRIM4T](https://prim4t.art) 🦍

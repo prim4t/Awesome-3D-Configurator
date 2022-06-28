@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchfab Configurator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="app">
+        <iframe src="" id="api-frame" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="vr" width="640"
+            height="400"></iframe>
+        <div class="options"></div>
+    </div>
+</body>
+
+<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.3.2.js"></script>
+<script type="text/javascript" src="./SketchfabConfigurator-1.0.6.js"></script>
+<script type="text/javascript">
+    var config = {
+    "model": "1cf3200790374d298f4fcae6682c764d",
+    "params": {
+        "camera": 0,
+        "preload": 1,
+        "ui_controls": 0,
+        "ui_infos": 0,
+        "ui_watermark": 0
+    },
+    "config": [
+        {
+            "name": "Select",
+            "type": "select",
+            "options": [
+                {
+                    "name": "Mesh1_Model",
+                    "selector": "[instance=\"416\"]"
+                },
+                {
+                    "name": "Mesh2_Model",
+                    "selector": "[instance=\"428\"]"
+                },
+                {
+                    "name": "Mesh3_Model",
+                    "selector": "[instance=\"438\"]"
+                },
+                {
+                    "name": "Mesh4_Model",
+                    "selector": "[instance=\"448\"]"
+                },
+                {
+                    "name": "Mesh5_Model",
+                    "selector": "[instance=\"458\"]"
+                }
+            ],
+            "default": 0
+        }
+    ]
+};
+    var iframeEl = document.getElementById('api-frame');
+    var optionsEl = document.querySelector('.options');
+    var configurator = new SketchfabConfigurator.Configurator(iframeEl, optionsEl, config);
+</script>
+
+</html>

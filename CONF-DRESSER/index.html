@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchfab Configurator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="app">
+        <iframe src="" id="api-frame" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="vr" width="640"
+            height="400"></iframe>
+        <div class="options"></div>
+    </div>
+</body>
+
+<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.3.2.js"></script>
+<script type="text/javascript" src="./SketchfabConfigurator-1.0.6.js"></script>
+<script type="text/javascript">
+    var config = {
+    "model": "54189d06423440739f6131a70e2d383d",
+    "params": {
+        "camera": 0,
+        "preload": 1,
+        "ui_controls": 0,
+        "ui_infos": 0,
+        "ui_watermark": 0
+    },
+    "config": [
+        {
+            "name": "HAT",
+            "type": "select",
+            "options": [
+                {
+                    "name": "Buckethat",
+                    "selector": "[instance=\"458\"]"
+                },
+                {
+                    "name": "Cylinder",
+                    "selector": "[instance=\"444\"]"
+                },
+                {
+                    "name": "NULL",
+                    "selector": "[instance=\"414\"]"
+                }
+            ],
+            "default": 2
+        },
+        {
+            "name": "GLASSES",
+            "type": "select",
+            "options": [
+                {
+                    "name": "RAYBAN",
+                    "selector": "[instance=\"417\"]"
+                },
+                {
+                    "name": "Minecraft",
+                    "selector": "[instance=\"431\"]"
+                },
+                {
+                    "name": "NULL",
+                    "selector": "[instance=\"414\"]"
+                }
+            ],
+            "default": 2
+        },
+        {
+            "name": "FELL",
+            "type": "color",
+            "material": "Material #204",
+            "default": "#b78871"
+        }
+    ]
+};
+    var iframeEl = document.getElementById('api-frame');
+    var optionsEl = document.querySelector('.options');
+    var configurator = new SketchfabConfigurator.Configurator(iframeEl, optionsEl, config);
+</script>
+
+</html>

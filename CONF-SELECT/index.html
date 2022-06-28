@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchfab Configurator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="app">
+        <iframe src="" id="api-frame" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="vr" width="640"
+            height="400"></iframe>
+        <div class="options"></div>
+    </div>
+</body>
+
+<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.3.2.js"></script>
+<script type="text/javascript" src="./SketchfabConfigurator-1.0.6.js"></script>
+<script type="text/javascript">
+    var config = {
+    "model": "12d8bed8785e4de18eb23e326b2d6605",
+    "params": {
+        "camera": 0,
+        "preload": 1,
+        "ui_controls": 0,
+        "ui_infos": 0,
+        "ui_watermark": 0
+    },
+    "config": [
+        {
+            "name": "3",
+            "type": "select",
+            "options": [
+                {
+                    "name": "Figure",
+                    "selector": "[instance=\"417\"]"
+                },
+                {
+                    "name": "Pyramid",
+                    "selector": "[instance=\"710\"]"
+                },
+                {
+                    "name": "Cube",
+                    "selector": "[instance=\"722\"]"
+                },
+                {
+                    "name": "Capsule",
+                    "selector": "[instance=\"734\"]"
+                },
+                {
+                    "name": "Sphere",
+                    "selector": "[instance=\"746\"]"
+                },
+                {
+                    "name": "Cylinder",
+                    "selector": "[instance=\"758\"]"
+                },
+                {
+                    "name": "Cone",
+                    "selector": "[instance=\"770\"]"
+                }
+            ],
+            "default": 0
+        },
+        {
+            "name": "2",
+            "type": "select",
+            "options": [
+                {
+                    "name": "Figure_2",
+                    "selector": "[instance=\"783\"]"
+                },
+                {
+                    "name": "Pyramid_2",
+                    "selector": "[instance=\"1074\"]"
+                },
+                {
+                    "name": "Cube_2",
+                    "selector": "[instance=\"1084\"]"
+                },
+                {
+                    "name": "Capsule_2",
+                    "selector": "[instance=\"1094\"]"
+                },
+                {
+                    "name": "Sphere_2",
+                    "selector": "[instance=\"1104\"]"
+                },
+                {
+                    "name": "Cylinder_2",
+                    "selector": "[instance=\"1114\"]"
+                },
+                {
+                    "name": "Cone_2",
+                    "selector": "[instance=\"1124\"]"
+                }
+            ],
+            "default": 1
+        },
+        {
+            "name": "1",
+            "type": "select",
+            "options": [
+                {
+                    "name": "Figure_3",
+                    "selector": "[instance=\"1135\"]"
+                },
+                {
+                    "name": "Pyramid_3",
+                    "selector": "[instance=\"1426\"]"
+                },
+                {
+                    "name": "Cube_3",
+                    "selector": "[instance=\"1436\"]"
+                },
+                {
+                    "name": "Capsule_3",
+                    "selector": "[instance=\"1446\"]"
+                },
+                {
+                    "name": "Sphere_3",
+                    "selector": "[instance=\"1456\"]"
+                },
+                {
+                    "name": "Cylinder_3",
+                    "selector": "[instance=\"1466\"]"
+                },
+                {
+                    "name": "Cone_3",
+                    "selector": "[instance=\"1476\"]"
+                }
+            ],
+            "default": 2
+        }
+    ]
+};
+    var iframeEl = document.getElementById('api-frame');
+    var optionsEl = document.querySelector('.options');
+    var configurator = new SketchfabConfigurator.Configurator(iframeEl, optionsEl, config);
+</script>
+
+</html>

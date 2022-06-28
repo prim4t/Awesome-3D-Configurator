@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketchfab Configurator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="app">
+        <iframe src="" id="api-frame" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="vr" width="640"
+            height="400"></iframe>
+        <div class="options"></div>
+    </div>
+</body>
+
+<script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.3.2.js"></script>
+<script type="text/javascript" src="./SketchfabConfigurator-1.0.6.js"></script>
+<script type="text/javascript">
+    var config = {
+    "model": "63b30495a74643c6bcd4aa1c1f2b3990",
+    "params": {
+        "camera": 0,
+        "preload": 1,
+        "ui_controls": 0,
+        "ui_infos": 0,
+        "ui_watermark": 0
+    },
+    "config": [
+        {
+            "name": "FIGURE",
+            "type": "visible",
+            "selector": "[instance=\"461\"]",
+            "default": true
+        },
+        {
+            "name": "PYRAMID",
+            "type": "visible",
+            "selector": "[instance=\"754\"]",
+            "default": true
+        },
+        {
+            "name": "CUBE",
+            "type": "visible",
+            "selector": "[instance=\"766\"]",
+            "default": true
+        },
+        {
+            "name": "CAPSULE",
+            "type": "visible",
+            "selector": "[instance=\"778\"]",
+            "default": true
+        },
+        {
+            "name": "SPHERE",
+            "type": "visible",
+            "selector": "[instance=\"790\"]",
+            "default": true
+        },
+        {
+            "name": "CYLINDER",
+            "type": "visible",
+            "selector": "[instance=\"802\"]",
+            "default": true
+        },
+        {
+            "name": "CONE",
+            "type": "visible",
+            "selector": "[instance=\"814\"]",
+            "default": true
+        }
+    ]
+};
+    var iframeEl = document.getElementById('api-frame');
+    var optionsEl = document.querySelector('.options');
+    var configurator = new SketchfabConfigurator.Configurator(iframeEl, optionsEl, config);
+</script>
+
+</html>
